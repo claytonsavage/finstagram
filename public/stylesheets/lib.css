@@ -26,9 +26,38 @@ input[type=text], input[type=password], input[type=email] {
 }
 
 header {
+  width: 100%;
+  margin: auto;
+}
+.headermain {
   overflow: hidden;
   display: flex;
   align-items: baseline;
+  font-size: 25px;
+  background-color: rgba(255,255,255, 0.9);
+  color: white;
+  z-index: 2;
+}
+.headermain a{
+  color: white;
+  box-sizing: border-box;
+}
+#maindiv:hover {
+  background-color: #c6c6c6;
+  font-size: large;
+}
+#maindiv{
+  background-color: #217a74;
+  margin: auto;
+  padding: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: -10px;
+  font-size: medium;
+  transition: font-size 1s;
+  opacity: 1;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
 }
 
 header > .login-info {
@@ -36,8 +65,10 @@ header > .login-info {
 }
 
 main {
-  width: 450px;
-  margin: 0 auto;
+  width: 55%;
+  margin: auto;
+  padding: 10%;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .new-post {
@@ -64,13 +95,29 @@ main {
   margin-bottom: 1em;
 }
 
+.post {
+	 margin-bottom: 2em;
+	 padding: 10%;
+	 background-color: white;
+	 transition: all .2s ease-in-out;
+}
+.post:hover {
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	 box-shadow: 0 15px 2px -6px lightgrey;
+	 transform: scale(1.01);
+}
+
 .user-info {
   display: flex;
   align-items: baseline;
+  font-size: 60%;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .user-info img {
-  width: 40px;
+  width: 10%;
 }
 
 .user-info h2 {
@@ -88,6 +135,8 @@ main {
 .photo img {
   display: block;
   width: 100%;
+  border-radius:2%;
+  overflow:hidden;
 }
 
 .actions {
@@ -110,6 +159,7 @@ main {
   margin-right: 0;
   padding: 0;
   list-style-type: none;
+
 }
 
 .form-group {
