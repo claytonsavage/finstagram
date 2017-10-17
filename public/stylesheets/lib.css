@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #8da7b8;
+  color: #black;
   text-decoration: none;
 }
 
@@ -34,12 +34,11 @@ header {
   display: flex;
   align-items: baseline;
   font-size: 25px;
-  background-color: rgba(255,255,255, 0.9);
-  color: white;
+  color: black;
   z-index: 2;
 }
 .headermain a{
-  color: white;
+  color: black;
   box-sizing: border-box;
 }
 #maindiv:hover {
@@ -47,7 +46,7 @@ header {
   font-size: large;
 }
 #maindiv{
-  background-color: #217a74;
+  background-color: #217;
   margin: auto;
   padding: 15px;
   padding-left: 10%;
@@ -62,13 +61,14 @@ header {
 
 header > .login-info {
   margin-left: auto;
+  color: black;
 }
 
 main {
   width: 55%;
   margin: auto;
   padding: 10%;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: black;
 }
 
 .new-post {
@@ -168,4 +168,9 @@ main {
 
 .new-comment input[type="text"] {
   width: 100%;
+}
+
+login-info {
+  color: black
+  
 }
