@@ -1,6 +1,8 @@
+
 class Post < ActiveRecord::Base
+    validates_presence_of :photo_url, :user
     
-    belongs_to :user
+        belongs_to :user
     has_many :comments
     has_many :likes
     
@@ -12,7 +14,7 @@ class Post < ActiveRecord::Base
             "#{(time_ago_in_minutes / 60).to_i} hours ago"
             
         else
-            "#{time_ago_in_minutes} minutes ago"
+            "#{(time_ago_in_minutes).to_i} minutes ago"
         end
     end
     
@@ -24,6 +26,4 @@ class Post < ActiveRecord::Base
         self.comments.size
     end
     
-    
 end
-

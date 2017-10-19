@@ -10,7 +10,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: #f2f2f2;
+  background-color: white;
   box-shadow: inset 0 0 12px rgba(0,0,0,0.6);
   margin: 0px;
 
@@ -142,7 +142,7 @@ h1 {
  */
 
 mark {
-  background: #ff0;
+  background: white;
   color: #000;
 }
 
@@ -451,32 +451,3 @@ header
 a{
 	color: #074E8C;
 }
-
-.scrollbar
-{
-	overflow-y: scroll;
-	min-height: 450px;
-}
-
-#newscrollbar::-webkit-scrollbar-track
-{
-	-webkit-
- background-color: #FFFFFF;
- border-radius: 2px;
-}
-
-#newscrollbar::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
-}
-
-#newscrollbar::-webkit-scrollbar-thumb
-{
-	background-color: #FFFFFF;
-	border-radius: 3px;
-	box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
-}
-
-
-

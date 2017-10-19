@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #black;
+  color: black;
   text-decoration: none;
 }
 
@@ -42,11 +42,11 @@ header {
   box-sizing: border-box;
 }
 #maindiv:hover {
-  background-color: #c6c6c6;
+  background-color: white;
   font-size: large;
 }
 #maindiv{
-  background-color: #217;
+  background-color: white;
   margin: auto;
   padding: 15px;
   padding-left: 10%;
@@ -65,10 +65,9 @@ header > .login-info {
 }
 
 main {
-  width: 55%;
+  width: 75%;
   margin: auto;
-  padding: 10%;
-  background-color: black;
+  background-color: lightgrey;
 }
 
 .new-post {
