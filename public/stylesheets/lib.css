@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: black;
+  color: #8da7b8;
   text-decoration: none;
 }
 
@@ -33,26 +33,25 @@ header {
   overflow: hidden;
   display: flex;
   align-items: baseline;
-  font-size: 25px;
-  color: black;
+  font-size: 16px;
+  color: white;
   z-index: 2;
+  background-color: lightblue;
 }
 .headermain a{
-  color: black;
   box-sizing: border-box;
 }
 #maindiv:hover {
-  background-color: white;
-  font-size: large;
+  background-color: #c6c6c6;
+  font-size: 18px;
 }
 #maindiv{
-  background-color: white;
+  background-color: #217a74;
   margin: auto;
-  padding: 15px;
-  padding-left: 10%;
+  padding: 5px;
   padding-right: 10%;
   margin-bottom: -10px;
-  font-size: medium;
+  font-size: 16px;
   transition: font-size 1s;
   opacity: 1;
   font-family: 'Poppins', sans-serif;
@@ -61,13 +60,14 @@ header {
 
 header > .login-info {
   margin-left: auto;
-  color: black;
+  color: white;
+  
 }
 
 main {
-  width: 75%;
+  width: 50%;
   margin: auto;
-  background-color: lightgrey;
+  padding: 10%;
 }
 
 .new-post {
@@ -169,7 +169,6 @@ main {
   width: 100%;
 }
 
-login-info {
-  color: black
-  
+.headermain div{
+  top: 15px;
 }
